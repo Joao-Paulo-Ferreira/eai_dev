@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E aí Dev?? | Quiz para dev's</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <!--Botão de iniciar-->
+    <div class="start_btn"><button>Iniciar Quiz</button></div>
+
+    <!--Box com infos-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Regras do Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. Você tem <strong>15 segundos</strong> para responder cada questão.</div>
+            <div class="info">2. Após selecionar sua resposta, você não pode selecionar outra.</div>
+            <div class="info">3. Você não pode selecionar uma opção depois que o tempo acabar.</div>
+            <div class="info">4. Você não sair do Quiz enquando estiver respondendo as questões.</div>
+            <div class="info">5. Você acumula pontuação com respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair do Quiz</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!--Quiz Box-->
+    <div class="quiz_box">
+        <header>
+            <div class="title">E aí Dev??</div>
+            <div class="timer">
+                <div class="timer_text">Tempo restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!--Perguntas inseridas por JavaScript -->
+            </div>
+            <div class="option_list">
+                <!--Questões inseridas por JavaScript-->
+            </div>
+        </section>
+
+        <!--Quiz Box Rodapé-->
+        <footer>
+            <div class="total_que">
+                <!--Texto inserido por JavaScript-->
+            </div>
+            <button class="next_btn">Próxima Questão</button>
+        </footer>
+    </div>
+
+    <!--Box de resultados-->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Uhuulll!! Você completou o Quiz!!</div>
+        <div class="score_text">
+            <!--Texto inserido por JavaScript-->
+        </div>
+        <div class="buttons">
+            <button class="restart">Recomeçar Quiz</button>
+            <button class="quit">Sair do Quiz</button>
+        </div>
+    </div>
+
+    <!--Contatos-->
+    <header>
+        <nav class="contacts">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/joaopaulo__f/?hl=pt" target="_blank">
+                        <img src="/imagens/instalogo.png" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Joao-Paulo-Ferreira" target="_blank">
+                        <img src="/imagens/githublogo.png" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joaoferreira0ab90b14b" target="_blank">
+                        <img src="/imagens/linkedinlogo.png" alt="linkedin">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+
+    <script src="questoes.js"></script>
+
+
+</body>
+</html>
+</html>
